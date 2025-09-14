@@ -13,9 +13,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background:  hsl(0, 0%, 98%) url(/images/bg-tablet-pattern.svg) no-repeat;
-    background-position: top -150px right -200px;
+    background-color: hsl(0, 0%, 98%);
+    background: url(./images/bg-tablet-pattern.svg), url(./images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top -200px right -300px, bottom 350px left -600px;
     font-family: "Be Vietnam Pro", sans-serif;
+
 }
 
 .container {
@@ -118,25 +121,21 @@ h4 {
 
 .third2 {
     display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
     margin: 20px 0;
-    background-color: red;
-    animation-name: sample;
-    animation-duration: 7s;
-}
-
-@keyframes sample {
-    from {background-color: red;}
-    to {background-color: blue;}
 }
 
 .testi {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 270px;
     margin: 20px;
     padding: 15px;
     background-color: hsla(228, 39%, 23%, 0.030);
-
+    /* width: 80%; */
 }
 
 .four {
