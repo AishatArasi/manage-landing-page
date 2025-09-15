@@ -55,7 +55,7 @@ a {
 
 main {
     width: 100%;
-    margin: 20px 0px 0 0;
+    margin: 20px 10px 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,11 +63,11 @@ main {
 
 .first {
     display: flex;
-    margin: 20px 70px;
+    margin: 20px 80px;
 }
 
 .bring {
-    font-size: 57px;
+    font-size: 50px;
     font-weight: 700;
     color: hsl(233, 12%, 13%);
 }
@@ -82,6 +82,7 @@ p {
     display: flex;
     width: 100%;
     justify-content: space-around;
+
 }
 
 .right {
@@ -131,7 +132,8 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 270px;
+    width: 250px;
+    height: 280px;
     margin: 20px;
     padding: 15px;
     background-color: hsla(228, 39%, 23%, 0.030);
